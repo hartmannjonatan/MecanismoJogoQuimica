@@ -1,0 +1,1804 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Atm.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Etanol.gd" type="Script" id=2]
+[ext_resource path="res://frame.gd" type="Script" id=3]
+[ext_resource path="res://sprites-elements/frame.png" type="Texture" id=4]
+[ext_resource path="res://sprites-elements/lig-dupla.png" type="Texture" id=5]
+[ext_resource path="res://sprites-elements/C.png" type="Texture" id=6]
+[ext_resource path="res://sprites-elements/H.png" type="Texture" id=7]
+[ext_resource path="res://sprites-elements/frameClear.png" type="Texture" id=8]
+
+[node name="Etanol" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+script = ExtResource( 2 )
+
+[node name="GridContainer" type="GridContainer" parent="."]
+margin_right = 96.0
+margin_bottom = 40.0
+mouse_filter = 2
+
+[node name="0" type="GridContainer" parent="GridContainer"]
+margin_right = 196.0
+margin_bottom = 16.0
+rect_pivot_offset = Vector2( -92, -15 )
+mouse_filter = 2
+columns = 21
+
+[node name="0" type="TextureButton" parent="GridContainer/0"]
+margin_right = 16.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/0/0"]
+position = Vector2( 8, 8 )
+
+[node name="1" type="TextureButton" parent="GridContainer/0"]
+margin_left = 20.0
+margin_right = 36.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/0/1"]
+position = Vector2( 8, 8 )
+
+[node name="2" type="TextureButton" parent="GridContainer/0"]
+margin_left = 40.0
+margin_right = 56.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/0/2"]
+position = Vector2( 8, 8 )
+
+[node name="3" type="TextureButton" parent="GridContainer/0"]
+margin_left = 60.0
+margin_right = 76.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/0/3"]
+position = Vector2( 8, 8 )
+
+[node name="4" type="TextureButton" parent="GridContainer/0"]
+margin_left = 80.0
+margin_right = 96.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/0/4"]
+position = Vector2( 8, 8 )
+
+[node name="5" type="TextureButton" parent="GridContainer/0"]
+margin_left = 100.0
+margin_right = 116.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/0/5"]
+position = Vector2( 8, 8 )
+
+[node name="6" type="TextureButton" parent="GridContainer/0"]
+margin_left = 120.0
+margin_right = 136.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/0/6"]
+position = Vector2( 8, 8 )
+
+[node name="7" type="TextureButton" parent="GridContainer/0"]
+margin_left = 140.0
+margin_right = 156.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/0/7"]
+position = Vector2( 8, 8 )
+
+[node name="8" type="TextureButton" parent="GridContainer/0"]
+margin_left = 160.0
+margin_right = 176.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/0/8"]
+position = Vector2( 8, 8 )
+
+[node name="9" type="TextureButton" parent="GridContainer/0"]
+margin_left = 180.0
+margin_right = 196.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/0/9"]
+position = Vector2( 8, 8 )
+
+[node name="1" type="GridContainer" parent="GridContainer"]
+margin_top = 20.0
+margin_right = 196.0
+margin_bottom = 36.0
+rect_pivot_offset = Vector2( -92, -15 )
+mouse_filter = 2
+columns = 21
+
+[node name="0" type="TextureButton" parent="GridContainer/1"]
+margin_right = 16.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/1/0"]
+position = Vector2( 8, 8 )
+
+[node name="1" type="TextureButton" parent="GridContainer/1"]
+margin_left = 20.0
+margin_right = 36.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/1/1"]
+position = Vector2( 8, 8 )
+
+[node name="2" type="TextureButton" parent="GridContainer/1"]
+margin_left = 40.0
+margin_right = 56.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/1/2"]
+position = Vector2( 8, 8 )
+
+[node name="3" type="TextureButton" parent="GridContainer/1"]
+margin_left = 60.0
+margin_right = 76.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/1/3"]
+position = Vector2( 8, 8 )
+
+[node name="4" type="TextureButton" parent="GridContainer/1"]
+margin_left = 80.0
+margin_right = 96.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/1/4"]
+position = Vector2( 8, 8 )
+
+[node name="5" type="TextureButton" parent="GridContainer/1"]
+margin_left = 100.0
+margin_right = 116.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/1/5"]
+position = Vector2( 8, 8 )
+
+[node name="6" type="TextureButton" parent="GridContainer/1"]
+margin_left = 120.0
+margin_right = 136.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/1/6"]
+position = Vector2( 8, 8 )
+
+[node name="7" type="TextureButton" parent="GridContainer/1"]
+margin_left = 140.0
+margin_right = 156.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/1/7"]
+position = Vector2( 8, 8 )
+
+[node name="8" type="TextureButton" parent="GridContainer/1"]
+margin_left = 160.0
+margin_right = 176.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/1/8"]
+position = Vector2( 8, 8 )
+
+[node name="9" type="TextureButton" parent="GridContainer/1"]
+margin_left = 180.0
+margin_right = 196.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/1/9"]
+position = Vector2( 8, 8 )
+
+[node name="2" type="GridContainer" parent="GridContainer"]
+margin_top = 40.0
+margin_right = 196.0
+margin_bottom = 56.0
+rect_pivot_offset = Vector2( -92, -15 )
+mouse_filter = 2
+columns = 21
+
+[node name="0" type="TextureButton" parent="GridContainer/2"]
+margin_right = 16.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/2/0"]
+position = Vector2( 8, 8 )
+
+[node name="1" type="TextureButton" parent="GridContainer/2"]
+margin_left = 20.0
+margin_right = 36.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/2/1"]
+position = Vector2( 8, 8 )
+
+[node name="2" type="TextureButton" parent="GridContainer/2"]
+margin_left = 40.0
+margin_right = 56.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/2/2"]
+position = Vector2( 8, 8 )
+
+[node name="3" type="TextureButton" parent="GridContainer/2"]
+margin_left = 60.0
+margin_right = 76.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/2/3"]
+position = Vector2( 8, 8 )
+
+[node name="4" type="TextureButton" parent="GridContainer/2"]
+margin_left = 80.0
+margin_right = 96.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/2/4"]
+position = Vector2( 8, 8 )
+
+[node name="5" type="TextureButton" parent="GridContainer/2"]
+margin_left = 100.0
+margin_right = 116.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/2/5"]
+position = Vector2( 8, 8 )
+
+[node name="6" type="TextureButton" parent="GridContainer/2"]
+margin_left = 120.0
+margin_right = 136.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/2/6"]
+position = Vector2( 8, 8 )
+
+[node name="7" type="TextureButton" parent="GridContainer/2"]
+margin_left = 140.0
+margin_right = 156.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/2/7"]
+position = Vector2( 8, 8 )
+
+[node name="8" type="TextureButton" parent="GridContainer/2"]
+margin_left = 160.0
+margin_right = 176.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/2/8"]
+position = Vector2( 8, 8 )
+
+[node name="9" type="TextureButton" parent="GridContainer/2"]
+margin_left = 180.0
+margin_right = 196.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/2/9"]
+position = Vector2( 8, 8 )
+
+[node name="3" type="GridContainer" parent="GridContainer"]
+margin_top = 60.0
+margin_right = 196.0
+margin_bottom = 76.0
+rect_pivot_offset = Vector2( -92, -15 )
+mouse_filter = 2
+columns = 21
+
+[node name="0" type="TextureButton" parent="GridContainer/3"]
+margin_right = 16.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/3/0"]
+position = Vector2( 8, 8 )
+
+[node name="1" type="TextureButton" parent="GridContainer/3"]
+margin_left = 20.0
+margin_right = 36.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/3/1"]
+position = Vector2( 8, 8 )
+
+[node name="2" type="TextureButton" parent="GridContainer/3"]
+margin_left = 40.0
+margin_right = 56.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/3/2"]
+position = Vector2( 8, 8 )
+
+[node name="3" type="TextureButton" parent="GridContainer/3"]
+margin_left = 60.0
+margin_right = 76.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/3/3"]
+position = Vector2( 8, 8 )
+
+[node name="4" type="TextureButton" parent="GridContainer/3"]
+margin_left = 80.0
+margin_right = 96.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/3/4"]
+position = Vector2( 8, 8 )
+
+[node name="5" type="TextureButton" parent="GridContainer/3"]
+margin_left = 100.0
+margin_right = 116.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/3/5"]
+position = Vector2( 8, 8 )
+
+[node name="6" type="TextureButton" parent="GridContainer/3"]
+margin_left = 120.0
+margin_right = 136.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/3/6"]
+position = Vector2( 8, 8 )
+
+[node name="7" type="TextureButton" parent="GridContainer/3"]
+margin_left = 140.0
+margin_right = 156.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/3/7"]
+position = Vector2( 8, 8 )
+
+[node name="8" type="TextureButton" parent="GridContainer/3"]
+margin_left = 160.0
+margin_right = 176.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/3/8"]
+position = Vector2( 8, 8 )
+
+[node name="9" type="TextureButton" parent="GridContainer/3"]
+margin_left = 180.0
+margin_right = 196.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/3/9"]
+position = Vector2( 8, 8 )
+
+[node name="4" type="GridContainer" parent="GridContainer"]
+margin_top = 80.0
+margin_right = 196.0
+margin_bottom = 96.0
+rect_pivot_offset = Vector2( -92, -15 )
+mouse_filter = 2
+columns = 21
+
+[node name="0" type="TextureButton" parent="GridContainer/4"]
+margin_right = 16.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/4/0"]
+position = Vector2( 8, 8 )
+
+[node name="1" type="TextureButton" parent="GridContainer/4"]
+margin_left = 20.0
+margin_right = 36.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/4/1"]
+position = Vector2( 8, 8 )
+
+[node name="2" type="TextureButton" parent="GridContainer/4"]
+margin_left = 40.0
+margin_right = 56.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/4/2"]
+position = Vector2( 8, 8 )
+
+[node name="3" type="TextureButton" parent="GridContainer/4"]
+margin_left = 60.0
+margin_right = 76.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/4/3"]
+position = Vector2( 8, 8 )
+
+[node name="4" type="TextureButton" parent="GridContainer/4"]
+margin_left = 80.0
+margin_right = 96.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/4/4"]
+position = Vector2( 8, 8 )
+rotation = 1.5708
+
+[node name="5" type="TextureButton" parent="GridContainer/4"]
+margin_left = 100.0
+margin_right = 116.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/4/5"]
+position = Vector2( 8, 8 )
+texture = ExtResource( 6 )
+
+[node name="6" type="TextureButton" parent="GridContainer/4"]
+margin_left = 120.0
+margin_right = 136.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/4/6"]
+position = Vector2( 8, 8 )
+texture = ExtResource( 7 )
+
+[node name="7" type="TextureButton" parent="GridContainer/4"]
+margin_left = 140.0
+margin_right = 156.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/4/7"]
+position = Vector2( 8, 8 )
+rotation = 1.5708
+texture = ExtResource( 5 )
+
+[node name="8" type="TextureButton" parent="GridContainer/4"]
+margin_left = 160.0
+margin_right = 176.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/4/8"]
+position = Vector2( 8, 8 )
+
+[node name="9" type="TextureButton" parent="GridContainer/4"]
+margin_left = 180.0
+margin_right = 196.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/4/9"]
+position = Vector2( 8, 8 )
+
+[node name="5" type="GridContainer" parent="GridContainer"]
+margin_top = 100.0
+margin_right = 196.0
+margin_bottom = 116.0
+rect_pivot_offset = Vector2( -92, -15 )
+mouse_filter = 2
+columns = 21
+
+[node name="0" type="TextureButton" parent="GridContainer/5"]
+margin_right = 16.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/5/0"]
+position = Vector2( 8, 8 )
+
+[node name="1" type="TextureButton" parent="GridContainer/5"]
+margin_left = 20.0
+margin_right = 36.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/5/1"]
+position = Vector2( 8, 8 )
+
+[node name="2" type="TextureButton" parent="GridContainer/5"]
+margin_left = 40.0
+margin_right = 56.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/5/2"]
+position = Vector2( 8, 8 )
+
+[node name="3" type="TextureButton" parent="GridContainer/5"]
+margin_left = 60.0
+margin_right = 76.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/5/3"]
+position = Vector2( 8, 8 )
+
+[node name="4" type="TextureButton" parent="GridContainer/5"]
+margin_left = 80.0
+margin_right = 96.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/5/4"]
+position = Vector2( 8, 8 )
+
+[node name="5" type="TextureButton" parent="GridContainer/5"]
+margin_left = 100.0
+margin_right = 116.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/5/5"]
+position = Vector2( 8, 8 )
+
+[node name="6" type="TextureButton" parent="GridContainer/5"]
+margin_left = 120.0
+margin_right = 136.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/5/6"]
+position = Vector2( 8, 8 )
+
+[node name="7" type="TextureButton" parent="GridContainer/5"]
+margin_left = 140.0
+margin_right = 156.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/5/7"]
+position = Vector2( 8, 8 )
+
+[node name="8" type="TextureButton" parent="GridContainer/5"]
+margin_left = 160.0
+margin_right = 176.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/5/8"]
+position = Vector2( 8, 8 )
+
+[node name="9" type="TextureButton" parent="GridContainer/5"]
+margin_left = 180.0
+margin_right = 196.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/5/9"]
+position = Vector2( 8, 8 )
+
+[node name="6" type="GridContainer" parent="GridContainer"]
+margin_top = 120.0
+margin_right = 196.0
+margin_bottom = 136.0
+rect_pivot_offset = Vector2( -92, -15 )
+mouse_filter = 2
+columns = 21
+
+[node name="0" type="TextureButton" parent="GridContainer/6"]
+margin_right = 16.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/6/0"]
+position = Vector2( 8, 8 )
+
+[node name="1" type="TextureButton" parent="GridContainer/6"]
+margin_left = 20.0
+margin_right = 36.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/6/1"]
+position = Vector2( 8, 8 )
+
+[node name="2" type="TextureButton" parent="GridContainer/6"]
+margin_left = 40.0
+margin_right = 56.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/6/2"]
+position = Vector2( 8, 8 )
+
+[node name="3" type="TextureButton" parent="GridContainer/6"]
+margin_left = 60.0
+margin_right = 76.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/6/3"]
+position = Vector2( 8, 8 )
+
+[node name="4" type="TextureButton" parent="GridContainer/6"]
+margin_left = 80.0
+margin_right = 96.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/6/4"]
+position = Vector2( 8, 8 )
+
+[node name="5" type="TextureButton" parent="GridContainer/6"]
+margin_left = 100.0
+margin_right = 116.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/6/5"]
+position = Vector2( 8, 8 )
+
+[node name="6" type="TextureButton" parent="GridContainer/6"]
+margin_left = 120.0
+margin_right = 136.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/6/6"]
+position = Vector2( 8, 8 )
+
+[node name="7" type="TextureButton" parent="GridContainer/6"]
+margin_left = 140.0
+margin_right = 156.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/6/7"]
+position = Vector2( 8, 8 )
+
+[node name="8" type="TextureButton" parent="GridContainer/6"]
+margin_left = 160.0
+margin_right = 176.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/6/8"]
+position = Vector2( 8, 8 )
+
+[node name="9" type="TextureButton" parent="GridContainer/6"]
+margin_left = 180.0
+margin_right = 196.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/6/9"]
+position = Vector2( 8, 8 )
+
+[node name="7" type="GridContainer" parent="GridContainer"]
+margin_top = 140.0
+margin_right = 196.0
+margin_bottom = 156.0
+rect_pivot_offset = Vector2( -92, -15 )
+mouse_filter = 2
+columns = 21
+
+[node name="0" type="TextureButton" parent="GridContainer/7"]
+margin_right = 16.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/7/0"]
+position = Vector2( 8, 8 )
+
+[node name="1" type="TextureButton" parent="GridContainer/7"]
+margin_left = 20.0
+margin_right = 36.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/7/1"]
+position = Vector2( 8, 8 )
+
+[node name="2" type="TextureButton" parent="GridContainer/7"]
+margin_left = 40.0
+margin_right = 56.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/7/2"]
+position = Vector2( 8, 8 )
+
+[node name="3" type="TextureButton" parent="GridContainer/7"]
+margin_left = 60.0
+margin_right = 76.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/7/3"]
+position = Vector2( 8, 8 )
+
+[node name="4" type="TextureButton" parent="GridContainer/7"]
+margin_left = 80.0
+margin_right = 96.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/7/4"]
+position = Vector2( 8, 8 )
+
+[node name="5" type="TextureButton" parent="GridContainer/7"]
+margin_left = 100.0
+margin_right = 116.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/7/5"]
+position = Vector2( 8, 8 )
+
+[node name="6" type="TextureButton" parent="GridContainer/7"]
+margin_left = 120.0
+margin_right = 136.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/7/6"]
+position = Vector2( 8, 8 )
+
+[node name="7" type="TextureButton" parent="GridContainer/7"]
+margin_left = 140.0
+margin_right = 156.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/7/7"]
+position = Vector2( 8, 8 )
+
+[node name="8" type="TextureButton" parent="GridContainer/7"]
+margin_left = 160.0
+margin_right = 176.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/7/8"]
+position = Vector2( 8, 8 )
+
+[node name="9" type="TextureButton" parent="GridContainer/7"]
+margin_left = 180.0
+margin_right = 196.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/7/9"]
+position = Vector2( 8, 8 )
+
+[node name="8" type="GridContainer" parent="GridContainer"]
+margin_top = 160.0
+margin_right = 196.0
+margin_bottom = 176.0
+rect_pivot_offset = Vector2( -92, -15 )
+mouse_filter = 2
+columns = 21
+
+[node name="0" type="TextureButton" parent="GridContainer/8"]
+margin_right = 16.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/8/0"]
+position = Vector2( 8, 8 )
+
+[node name="1" type="TextureButton" parent="GridContainer/8"]
+margin_left = 20.0
+margin_right = 36.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/8/1"]
+position = Vector2( 8, 8 )
+
+[node name="2" type="TextureButton" parent="GridContainer/8"]
+margin_left = 40.0
+margin_right = 56.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/8/2"]
+position = Vector2( 8, 8 )
+
+[node name="3" type="TextureButton" parent="GridContainer/8"]
+margin_left = 60.0
+margin_right = 76.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/8/3"]
+position = Vector2( 8, 8 )
+
+[node name="4" type="TextureButton" parent="GridContainer/8"]
+margin_left = 80.0
+margin_right = 96.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/8/4"]
+position = Vector2( 8, 8 )
+
+[node name="5" type="TextureButton" parent="GridContainer/8"]
+margin_left = 100.0
+margin_right = 116.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/8/5"]
+position = Vector2( 8, 8 )
+
+[node name="6" type="TextureButton" parent="GridContainer/8"]
+margin_left = 120.0
+margin_right = 136.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/8/6"]
+position = Vector2( 8, 8 )
+
+[node name="7" type="TextureButton" parent="GridContainer/8"]
+margin_left = 140.0
+margin_right = 156.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/8/7"]
+position = Vector2( 8, 8 )
+
+[node name="8" type="TextureButton" parent="GridContainer/8"]
+margin_left = 160.0
+margin_right = 176.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/8/8"]
+position = Vector2( 8, 8 )
+
+[node name="9" type="TextureButton" parent="GridContainer/8"]
+margin_left = 180.0
+margin_right = 196.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/8/9"]
+position = Vector2( 8, 8 )
+
+[node name="9" type="GridContainer" parent="GridContainer"]
+margin_top = 180.0
+margin_right = 196.0
+margin_bottom = 196.0
+rect_pivot_offset = Vector2( -92, -15 )
+mouse_filter = 2
+columns = 21
+
+[node name="0" type="TextureButton" parent="GridContainer/9"]
+margin_right = 16.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/9/0"]
+position = Vector2( 8, 8 )
+
+[node name="1" type="TextureButton" parent="GridContainer/9"]
+margin_left = 20.0
+margin_right = 36.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/9/1"]
+position = Vector2( 8, 8 )
+
+[node name="2" type="TextureButton" parent="GridContainer/9"]
+margin_left = 40.0
+margin_right = 56.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/9/2"]
+position = Vector2( 8, 8 )
+
+[node name="3" type="TextureButton" parent="GridContainer/9"]
+margin_left = 60.0
+margin_right = 76.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/9/3"]
+position = Vector2( 8, 8 )
+
+[node name="4" type="TextureButton" parent="GridContainer/9"]
+margin_left = 80.0
+margin_right = 96.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/9/4"]
+position = Vector2( 8, 8 )
+
+[node name="5" type="TextureButton" parent="GridContainer/9"]
+margin_left = 100.0
+margin_right = 116.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/9/5"]
+position = Vector2( 8, 8 )
+
+[node name="6" type="TextureButton" parent="GridContainer/9"]
+margin_left = 120.0
+margin_right = 136.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/9/6"]
+position = Vector2( 8, 8 )
+
+[node name="7" type="TextureButton" parent="GridContainer/9"]
+margin_left = 140.0
+margin_right = 156.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/9/7"]
+position = Vector2( 8, 8 )
+
+[node name="8" type="TextureButton" parent="GridContainer/9"]
+margin_left = 160.0
+margin_right = 176.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/9/8"]
+position = Vector2( 8, 8 )
+
+[node name="9" type="TextureButton" parent="GridContainer/9"]
+margin_left = 180.0
+margin_right = 196.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="GridContainer/9/9"]
+position = Vector2( 8, 8 )
+
+[node name="Atm" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 93.0
+margin_top = 213.0
+margin_right = 189.0
+margin_bottom = 213.0
+
+[connection signal="pressed" from="GridContainer/0/0" to="GridContainer/0/0" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/0/1" to="GridContainer/0/1" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/0/2" to="GridContainer/0/2" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/0/3" to="GridContainer/0/3" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/0/4" to="GridContainer/0/4" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/0/5" to="GridContainer/0/5" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/0/6" to="GridContainer/0/6" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/0/7" to="GridContainer/0/7" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/0/8" to="GridContainer/0/8" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/0/9" to="GridContainer/0/9" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/1/0" to="GridContainer/1/0" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/1/1" to="GridContainer/1/1" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/1/2" to="GridContainer/1/2" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/1/3" to="GridContainer/1/3" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/1/4" to="GridContainer/1/4" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/1/5" to="GridContainer/1/5" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/1/6" to="GridContainer/1/6" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/1/7" to="GridContainer/1/7" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/1/8" to="GridContainer/1/8" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/1/9" to="GridContainer/1/9" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/2/0" to="GridContainer/2/0" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/2/1" to="GridContainer/2/1" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/2/2" to="GridContainer/2/2" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/2/3" to="GridContainer/2/3" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/2/4" to="GridContainer/2/4" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/2/5" to="GridContainer/2/5" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/2/6" to="GridContainer/2/6" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/2/7" to="GridContainer/2/7" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/2/8" to="GridContainer/2/8" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/2/9" to="GridContainer/2/9" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/3/0" to="GridContainer/3/0" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/3/1" to="GridContainer/3/1" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/3/2" to="GridContainer/3/2" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/3/3" to="GridContainer/3/3" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/3/4" to="GridContainer/3/4" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/3/5" to="GridContainer/3/5" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/3/6" to="GridContainer/3/6" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/3/7" to="GridContainer/3/7" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/3/8" to="GridContainer/3/8" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/3/9" to="GridContainer/3/9" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/4/0" to="GridContainer/4/0" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/4/1" to="GridContainer/4/1" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/4/2" to="GridContainer/4/2" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/4/3" to="GridContainer/4/3" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/4/4" to="GridContainer/4/4" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/4/5" to="GridContainer/4/5" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/4/6" to="GridContainer/4/6" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/4/7" to="GridContainer/4/7" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/4/8" to="GridContainer/4/8" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/4/9" to="GridContainer/4/9" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/5/0" to="GridContainer/5/0" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/5/1" to="GridContainer/5/1" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/5/2" to="GridContainer/5/2" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/5/3" to="GridContainer/5/3" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/5/4" to="GridContainer/5/4" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/5/5" to="GridContainer/5/5" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/5/6" to="GridContainer/5/6" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/5/7" to="GridContainer/5/7" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/5/8" to="GridContainer/5/8" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/5/9" to="GridContainer/5/9" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/6/0" to="GridContainer/6/0" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/6/1" to="GridContainer/6/1" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/6/2" to="GridContainer/6/2" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/6/3" to="GridContainer/6/3" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/6/4" to="GridContainer/6/4" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/6/5" to="GridContainer/6/5" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/6/6" to="GridContainer/6/6" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/6/7" to="GridContainer/6/7" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/6/8" to="GridContainer/6/8" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/6/9" to="GridContainer/6/9" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/7/0" to="GridContainer/7/0" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/7/1" to="GridContainer/7/1" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/7/2" to="GridContainer/7/2" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/7/3" to="GridContainer/7/3" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/7/4" to="GridContainer/7/4" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/7/5" to="GridContainer/7/5" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/7/6" to="GridContainer/7/6" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/7/7" to="GridContainer/7/7" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/7/8" to="GridContainer/7/8" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/7/9" to="GridContainer/7/9" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/8/0" to="GridContainer/8/0" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/8/1" to="GridContainer/8/1" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/8/2" to="GridContainer/8/2" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/8/3" to="GridContainer/8/3" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/8/4" to="GridContainer/8/4" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/8/5" to="GridContainer/8/5" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/8/6" to="GridContainer/8/6" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/8/7" to="GridContainer/8/7" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/8/8" to="GridContainer/8/8" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/8/9" to="GridContainer/8/9" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/9/0" to="GridContainer/9/0" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/9/1" to="GridContainer/9/1" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/9/2" to="GridContainer/9/2" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/9/3" to="GridContainer/9/3" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/9/4" to="GridContainer/9/4" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/9/5" to="GridContainer/9/5" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/9/6" to="GridContainer/9/6" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/9/7" to="GridContainer/9/7" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/9/8" to="GridContainer/9/8" method="_on_0_pressed"]
+[connection signal="pressed" from="GridContainer/9/9" to="GridContainer/9/9" method="_on_0_pressed"]

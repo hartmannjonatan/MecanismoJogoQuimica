@@ -86,7 +86,21 @@ func verifica(element: String, linha: String, coluna: String) -> bool:
 									if coluna == "9" and element == "H":
 										return true
 									else: return false
-					else: return false
+					else:
+						if linha == "5":
+							if coluna == "6" and element == "LigSimples":
+								return true
+							else: return false
+						else:
+							if linha == "6":
+								if coluna == "6" and element == "C":
+									return true
+								else:
+									if coluna == "7" and element == "H":
+										getNodeGrid("6", "7", true).text = "3"
+										return true
+									else: return false
+							else: return false
 	else: return true
 	
 func getNodeGrid(linha: String, coluna: String, text: bool) -> Node:
